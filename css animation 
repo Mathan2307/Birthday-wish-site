@@ -1,0 +1,13 @@
+@keyframes fireworks {
+    0% { transform: scale(0); opacity: 1; }
+    100% { transform: scale(1.5); opacity: 0; }
+}
+.firework {
+    width: 10px;
+    height: 10px;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation: fireworks 1s infinite;
+}
